@@ -1,0 +1,29 @@
+{
+  "name": "dev2_nwsnwsnws",
+  "version": "1.0.0",
+  "description": "Dit is een test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finn-van-eyck/dev2_nwsnwsnws.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finn-van-eyck/dev2_nwsnwsnws/issues"
+  },
+  "homepage": "https://github.com/finn-van-eyck/dev2_nwsnwsnws#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
