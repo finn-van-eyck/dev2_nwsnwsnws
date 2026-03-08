@@ -1,0 +1,12 @@
+<h2>Alle nieuwsberichten</h2>
+
+<% news.forEach((item) => { %>
+  <article class="news-card">
+    <h3>
+      <a href="/news/<%= item.slug %>"><%= item.title %></a>
+    </h3>
+    <p><strong>Datum:</strong> <%= item.date %></p>
+    <p><%= item.content %></p>
+    <a href="/news/<%= item.slug %>">Lees meer</a>
+  </article>
+<% }) %>

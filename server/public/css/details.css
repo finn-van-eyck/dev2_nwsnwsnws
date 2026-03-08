@@ -1,0 +1,38 @@
+body {
+  background: #fff7ed;
+}
+
+.detail-card {
+  background: white;
+  border-radius: 20px;
+  padding: 28px;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+  border: 1px solid #eadfd3;
+}
+
+.detail-card h2 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 2rem;
+  color: #111827;
+}
+
+.detail-card p {
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.detail-card a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  background: #ea580c;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.detail-card a:hover {
+  background: #c2410c;
+}
